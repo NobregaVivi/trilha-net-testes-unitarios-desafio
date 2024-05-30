@@ -1,3 +1,4 @@
+
 namespace TestesUnitarios.Desafio.Console.Services
 {
     public class ValidacoesLista
@@ -16,8 +17,8 @@ namespace TestesUnitarios.Desafio.Console.Services
 
         public List<int> MultiplicarNumerosLista(List<int> lista, int numero)
         {
-            var listaMultiplicada = lista.Select(x => x * numero).ToList();
-            return listaMultiplicada;
+            var listaMultiplicadaPor2 = lista.Select(x => x * numero).ToList();
+            return listaMultiplicadaPor2;
         }
 
         public int RetornarMaiorNumeroLista(List<int> lista)
